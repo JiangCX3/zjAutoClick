@@ -59,4 +59,6 @@ def main():
 if __name__ == '__main__':
     while True:
         click_px([1907, 461])
+        time.sleep(3)
+
     # main()
