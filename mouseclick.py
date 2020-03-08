@@ -58,10 +58,13 @@ def main():
 
 if __name__ == '__main__':
     last_i = 0
+    sleep_late = 1
+
     while True:
+        last_i += 1
         print("已经点击%d次" % last_i)
         x, y = [1907, 461]
         click_px([x, y])
-        time.sleep(3)
+        time.sleep(sleep_late)
 
     # main()
